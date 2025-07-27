@@ -1,3 +1,12 @@
+# Data for Persona (which require access from: https://huggingface.co/datasets/SynthLabsAI/PERSONA)
+personas_combined.parquet
+personas_combined.csv
+
+# Data for instrument (may be available later)
+instruments.csv
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
