@@ -1,0 +1,10 @@
+pandas>=1.0
+pyarrow>=5.0
+jinja2>=3.0
+openai>=0.27.0
+anthropic>=0.6.0
+transformers>=4.0
+torch>=1.13
+pytest>=6.0
+black>=22.0
+ruff>=0.0.241

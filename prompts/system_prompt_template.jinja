@@ -1,0 +1,33 @@
+// System Prompt Template for Persona-driven Item Responses
+// -----------------------------------------
+// Demographics
+Age: {{ persona.demographics.age | default('N/A') }}
+Gender: {{ persona.demographics.gender | default('N/A') }}
+Education: {{ persona.demographics.education | default('N/A') }}
+
+// Sample Responses (first 5 shown)
+{% for resp in persona.responses[:5] %}
+Q{{ resp.question_id }}: original="{{ resp.original_response }}" | revised="{{ resp.revised_response }}"
+{% endfor %}
+
+// Response Instructions by Scale and Subscale
+{% for scale_name, scale in instruments.items() %}
+---
+Scale: {{ scale_name }}
+{% if scale.response_scale %}Response Scale: {{ scale.response_scale }}
+{% endif %}
+{% for sub_name, subblock in scale.items() if sub_name not in ['scale_id', 'response_scale', 'items'] %}
+  Subscale: {{ sub_name }}
+  {% if subblock.response_scale %}Subscale Response Scale: {{ subblock.response_scale }}
+  {% endif %}
+  {% for item_id, text in subblock.items() if item_id != 'response_scale' %}
+    {{ item_id }}. {{ text }}
+  {% endfor %}
+{% endfor %}
+{% if scale.items %}
+  Items:
+  {% for item_id, text in scale.items.items() %}
+    {{ item_id }}. {{ text }}
+  {% endfor %}
+{% endif %}
+{% endfor %}
