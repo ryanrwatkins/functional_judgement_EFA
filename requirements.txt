@@ -1,0 +1,6 @@
+pandas
+openai
+python-dotenv
+ruff
+black
+pytest

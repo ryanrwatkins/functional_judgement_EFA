@@ -1,0 +1,20 @@
+{
+  "scale1": {
+    "scale_id": 1,
+    "response_scale": "likert",
+    "subscale1": {
+      "1": "item1",
+      "2": "item2"
+    },
+    "subscale2": {
+      "3": "item3"
+    }
+  },
+  "scale2": {
+    "scale_id": 2,
+    "response_scale": "likert",
+    "subscale2": {
+      "4": "item4"
+    }
+  }
+}
