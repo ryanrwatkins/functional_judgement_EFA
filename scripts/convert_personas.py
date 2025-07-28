@@ -5,7 +5,13 @@ def convert_personas_to_json(input_path, output_path):
     """Converts the persona dataset from Parquet to JSON."""
     df = pd.read_parquet(input_path)
     personas = []
-    for persona_id, group in df.groupby('cut'):
+    # Assign a unique integer ID to each persona based on the 'cut' column
+    unique_cuts = df['cut'].unique()
+    cut_to_id = {cut: i + 1 for i, cut in enumerate(unique_cuts)}
+
+    for cut_value in unique_cuts:
+        group = df[df['cut'] == cut_value]
+        persona_id = cut_to_id[cut_value]
         persona_data = {
             'id': persona_id,
             'demographics': {},

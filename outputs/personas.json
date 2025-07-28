@@ -1,40 +1,7 @@
 {
   "personas": [
     {
-      "id": "Fair",
-      "demographics": {
-        "age": 30,
-        "gender": "female"
-      },
-      "responses": [
-        {
-          "question_id": "E",
-          "original_response": "VS2",
-          "revised_response": 65.1
-        }
-      ]
-    },
-    {
-      "id": "Good",
-      "demographics": {
-        "age": 30,
-        "gender": "female"
-      },
-      "responses": [
-        {
-          "question_id": "E",
-          "original_response": "VS1",
-          "revised_response": 56.9
-        },
-        {
-          "question_id": "J",
-          "original_response": "SI2",
-          "revised_response": 63.3
-        }
-      ]
-    },
-    {
-      "id": "Ideal",
+      "id": 1,
       "demographics": {
         "age": 30,
         "gender": "female"
@@ -48,7 +15,7 @@
       ]
     },
     {
-      "id": "Premium",
+      "id": 2,
       "demographics": {
         "age": 30,
         "gender": "female"
@@ -67,7 +34,26 @@
       ]
     },
     {
-      "id": "Very Good",
+      "id": 3,
+      "demographics": {
+        "age": 30,
+        "gender": "female"
+      },
+      "responses": [
+        {
+          "question_id": "E",
+          "original_response": "VS1",
+          "revised_response": 56.9
+        },
+        {
+          "question_id": "J",
+          "original_response": "SI2",
+          "revised_response": 63.3
+        }
+      ]
+    },
+    {
+      "id": 4,
       "demographics": {
         "age": 30,
         "gender": "female"
@@ -92,6 +78,20 @@
           "question_id": "H",
           "original_response": "VS1",
           "revised_response": 59.4
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "demographics": {
+        "age": 30,
+        "gender": "female"
+      },
+      "responses": [
+        {
+          "question_id": "E",
+          "original_response": "VS2",
+          "revised_response": 65.1
         }
       ]
     }

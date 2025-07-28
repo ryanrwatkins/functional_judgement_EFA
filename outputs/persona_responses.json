@@ -1,222 +1,437 @@
 {
   "persona_001": {
-    "persona_id": 1,
-    "model": "gpt-3.5-turbo",
+    "persona_id": "persona_001",
+    "model": "",
     "responses": {
       "condition_1": {
-        "Q1": "4"
+        "gpt-3.5-turbo": {
+          "scale1": {
+            "subscale1": {
+              "1": "2",
+              "2": "5"
+            },
+            "subscale2": {
+              "3": "2"
+            }
+          },
+          "scale2": {
+            "subscale2": {
+              "4": "5"
+            }
+          }
+        },
+        "claude-3-opus-20240229": {
+          "scale1": {
+            "subscale1": {
+              "1": "4",
+              "2": "1"
+            },
+            "subscale2": {
+              "3": "2"
+            }
+          },
+          "scale2": {
+            "subscale2": {
+              "4": "2"
+            }
+          }
+        },
+        "llama3": {
+          "scale1": {
+            "subscale1": {
+              "1": "3",
+              "2": "1"
+            },
+            "subscale2": {
+              "3": "1"
+            }
+          },
+          "scale2": {
+            "subscale2": {
+              "4": "5"
+            }
+          }
+        }
       },
-      "condition_2": {},
-      "condition_3": {}
+      "condition_2": {
+        "gpt-3.5-turbo": {
+          "raw_response": {
+            "scale1": "4",
+            "scale2": "4"
+          }
+        },
+        "claude-3-opus-20240229": {
+          "raw_response": {
+            "scale1": "3",
+            "scale2": "4"
+          }
+        },
+        "llama3": {
+          "raw_response": {
+            "scale1": "1",
+            "scale2": "5"
+          }
+        }
+      },
+      "condition_3": {
+        "gpt-3.5-turbo": {
+          "raw_response": "5"
+        },
+        "claude-3-opus-20240229": {
+          "raw_response": "1"
+        },
+        "llama3": {
+          "raw_response": "3"
+        }
+      }
     }
   },
   "persona_002": {
-    "persona_id": 2,
-    "model": "gpt-3.5-turbo",
+    "persona_id": "persona_002",
+    "model": "",
     "responses": {
       "condition_1": {
-        "Q2": "4"
+        "gpt-3.5-turbo": {
+          "scale1": {
+            "subscale1": {
+              "1": "3",
+              "2": "3"
+            },
+            "subscale2": {
+              "3": "1"
+            }
+          },
+          "scale2": {
+            "subscale2": {
+              "4": "4"
+            }
+          }
+        },
+        "claude-3-opus-20240229": {
+          "scale1": {
+            "subscale1": {
+              "1": "5",
+              "2": "5"
+            },
+            "subscale2": {
+              "3": "2"
+            }
+          },
+          "scale2": {
+            "subscale2": {
+              "4": "1"
+            }
+          }
+        },
+        "llama3": {
+          "scale1": {
+            "subscale1": {
+              "1": "2",
+              "2": "3"
+            },
+            "subscale2": {
+              "3": "2"
+            }
+          },
+          "scale2": {
+            "subscale2": {
+              "4": "3"
+            }
+          }
+        }
       },
-      "condition_2": {},
-      "condition_3": {}
+      "condition_2": {
+        "gpt-3.5-turbo": {
+          "raw_response": {
+            "scale1": "3",
+            "scale2": "3"
+          }
+        },
+        "claude-3-opus-20240229": {
+          "raw_response": {
+            "scale1": "2",
+            "scale2": "4"
+          }
+        },
+        "llama3": {
+          "raw_response": {
+            "scale1": "5",
+            "scale2": "3"
+          }
+        }
+      },
+      "condition_3": {
+        "gpt-3.5-turbo": {
+          "raw_response": "2"
+        },
+        "claude-3-opus-20240229": {
+          "raw_response": "1"
+        },
+        "llama3": {
+          "raw_response": "5"
+        }
+      }
     }
   },
   "persona_003": {
-    "persona_id": 3,
-    "model": "gpt-3.5-turbo",
+    "persona_id": "persona_003",
+    "model": "",
     "responses": {
       "condition_1": {
-        "Q3": "4"
+        "gpt-3.5-turbo": {
+          "scale1": {
+            "subscale1": {
+              "1": "3",
+              "2": "4"
+            },
+            "subscale2": {
+              "3": "5"
+            }
+          },
+          "scale2": {
+            "subscale2": {
+              "4": "4"
+            }
+          }
+        },
+        "claude-3-opus-20240229": {
+          "scale1": {
+            "subscale1": {
+              "1": "5",
+              "2": "5"
+            },
+            "subscale2": {
+              "3": "4"
+            }
+          },
+          "scale2": {
+            "subscale2": {
+              "4": "5"
+            }
+          }
+        },
+        "llama3": {
+          "scale1": {
+            "subscale1": {
+              "1": "5",
+              "2": "5"
+            },
+            "subscale2": {
+              "3": "1"
+            }
+          },
+          "scale2": {
+            "subscale2": {
+              "4": "1"
+            }
+          }
+        }
       },
-      "condition_2": {},
-      "condition_3": {}
+      "condition_2": {
+        "gpt-3.5-turbo": {
+          "raw_response": {
+            "scale1": "2",
+            "scale2": "1"
+          }
+        },
+        "claude-3-opus-20240229": {
+          "raw_response": {
+            "scale1": "3",
+            "scale2": "4"
+          }
+        },
+        "llama3": {
+          "raw_response": {
+            "scale1": "3",
+            "scale2": "5"
+          }
+        }
+      },
+      "condition_3": {
+        "gpt-3.5-turbo": {
+          "raw_response": "5"
+        },
+        "claude-3-opus-20240229": {
+          "raw_response": "4"
+        },
+        "llama3": {
+          "raw_response": "5"
+        }
+      }
     }
   },
   "persona_004": {
-    "persona_id": 4,
-    "model": "gpt-3.5-turbo",
+    "persona_id": "persona_004",
+    "model": "",
     "responses": {
       "condition_1": {
-        "Q4": "4"
+        "gpt-3.5-turbo": {
+          "scale1": {
+            "subscale1": {
+              "1": "3",
+              "2": "5"
+            },
+            "subscale2": {
+              "3": "1"
+            }
+          },
+          "scale2": {
+            "subscale2": {
+              "4": "3"
+            }
+          }
+        },
+        "claude-3-opus-20240229": {
+          "scale1": {
+            "subscale1": {
+              "1": "5",
+              "2": "4"
+            },
+            "subscale2": {
+              "3": "3"
+            }
+          },
+          "scale2": {
+            "subscale2": {
+              "4": "2"
+            }
+          }
+        },
+        "llama3": {
+          "scale1": {
+            "subscale1": {
+              "1": "4",
+              "2": "2"
+            },
+            "subscale2": {
+              "3": "4"
+            }
+          },
+          "scale2": {
+            "subscale2": {
+              "4": "1"
+            }
+          }
+        }
       },
-      "condition_2": {},
-      "condition_3": {}
+      "condition_2": {
+        "gpt-3.5-turbo": {
+          "raw_response": {
+            "scale1": "4",
+            "scale2": "2"
+          }
+        },
+        "claude-3-opus-20240229": {
+          "raw_response": {
+            "scale1": "4",
+            "scale2": "4"
+          }
+        },
+        "llama3": {
+          "raw_response": {
+            "scale1": "5",
+            "scale2": "4"
+          }
+        }
+      },
+      "condition_3": {
+        "gpt-3.5-turbo": {
+          "raw_response": "2"
+        },
+        "claude-3-opus-20240229": {
+          "raw_response": "3"
+        },
+        "llama3": {
+          "raw_response": "4"
+        }
+      }
     }
   },
   "persona_005": {
-    "persona_id": 5,
-    "model": "gpt-3.5-turbo",
+    "persona_id": "persona_005",
+    "model": "",
     "responses": {
       "condition_1": {
-        "Q5": "4"
+        "gpt-3.5-turbo": {
+          "scale1": {
+            "subscale1": {
+              "1": "3",
+              "2": "1"
+            },
+            "subscale2": {
+              "3": "1"
+            }
+          },
+          "scale2": {
+            "subscale2": {
+              "4": "4"
+            }
+          }
+        },
+        "claude-3-opus-20240229": {
+          "scale1": {
+            "subscale1": {
+              "1": "5",
+              "2": "5"
+            },
+            "subscale2": {
+              "3": "2"
+            }
+          },
+          "scale2": {
+            "subscale2": {
+              "4": "3"
+            }
+          }
+        },
+        "llama3": {
+          "scale1": {
+            "subscale1": {
+              "1": "2",
+              "2": "1"
+            },
+            "subscale2": {
+              "3": "1"
+            }
+          },
+          "scale2": {
+            "subscale2": {
+              "4": "4"
+            }
+          }
+        }
       },
-      "condition_2": {},
-      "condition_3": {}
-    }
-  },
-  "persona_006": {
-    "persona_id": 6,
-    "model": "gpt-3.5-turbo",
-    "responses": {
-      "condition_1": {
-        "Q6": "4"
+      "condition_2": {
+        "gpt-3.5-turbo": {
+          "raw_response": {
+            "scale1": "3",
+            "scale2": "1"
+          }
+        },
+        "claude-3-opus-20240229": {
+          "raw_response": {
+            "scale1": "4",
+            "scale2": "2"
+          }
+        },
+        "llama3": {
+          "raw_response": {
+            "scale1": "5",
+            "scale2": "1"
+          }
+        }
       },
-      "condition_2": {},
-      "condition_3": {}
-    }
-  },
-  "persona_007": {
-    "persona_id": 7,
-    "model": "gpt-3.5-turbo",
-    "responses": {
-      "condition_1": {
-        "Q7": "4"
-      },
-      "condition_2": {},
-      "condition_3": {}
-    }
-  },
-  "persona_008": {
-    "persona_id": 8,
-    "model": "gpt-3.5-turbo",
-    "responses": {
-      "condition_1": {
-        "Q8": "4"
-      },
-      "condition_2": {},
-      "condition_3": {}
-    }
-  },
-  "persona_009": {
-    "persona_id": 9,
-    "model": "gpt-3.5-turbo",
-    "responses": {
-      "condition_1": {
-        "Q9": "4"
-      },
-      "condition_2": {},
-      "condition_3": {}
-    }
-  },
-  "persona_010": {
-    "persona_id": 10,
-    "model": "gpt-3.5-turbo",
-    "responses": {
-      "condition_1": {
-        "Q10": "4"
-      },
-      "condition_2": {},
-      "condition_3": {}
-    }
-  },
-  "persona_011": {
-    "persona_id": 11,
-    "model": "gpt-3.5-turbo",
-    "responses": {
-      "condition_1": {
-        "Q11": "4"
-      },
-      "condition_2": {},
-      "condition_3": {}
-    }
-  },
-  "persona_012": {
-    "persona_id": 12,
-    "model": "gpt-3.5-turbo",
-    "responses": {
-      "condition_1": {
-        "Q12": "4"
-      },
-      "condition_2": {},
-      "condition_3": {}
-    }
-  },
-  "persona_013": {
-    "persona_id": 13,
-    "model": "gpt-3.5-turbo",
-    "responses": {
-      "condition_1": {
-        "Q13": "4"
-      },
-      "condition_2": {},
-      "condition_3": {}
-    }
-  },
-  "persona_014": {
-    "persona_id": 14,
-    "model": "gpt-3.5-turbo",
-    "responses": {
-      "condition_1": {
-        "Q14": "4"
-      },
-      "condition_2": {},
-      "condition_3": {}
-    }
-  },
-  "persona_015": {
-    "persona_id": 15,
-    "model": "gpt-3.5-turbo",
-    "responses": {
-      "condition_1": {
-        "Q15": "4"
-      },
-      "condition_2": {},
-      "condition_3": {}
-    }
-  },
-  "persona_016": {
-    "persona_id": 16,
-    "model": "gpt-3.5-turbo",
-    "responses": {
-      "condition_1": {
-        "Q16": "4"
-      },
-      "condition_2": {},
-      "condition_3": {}
-    }
-  },
-  "persona_017": {
-    "persona_id": 17,
-    "model": "gpt-3.5-turbo",
-    "responses": {
-      "condition_1": {
-        "Q17": "4"
-      },
-      "condition_2": {},
-      "condition_3": {}
-    }
-  },
-  "persona_018": {
-    "persona_id": 18,
-    "model": "gpt-3.5-turbo",
-    "responses": {
-      "condition_1": {
-        "Q18": "4"
-      },
-      "condition_2": {},
-      "condition_3": {}
-    }
-  },
-  "persona_019": {
-    "persona_id": 19,
-    "model": "gpt-3.5-turbo",
-    "responses": {
-      "condition_1": {
-        "Q19": "4"
-      },
-      "condition_2": {},
-      "condition_3": {}
-    }
-  },
-  "persona_020": {
-    "persona_id": 20,
-    "model": "gpt-3.5-turbo",
-    "responses": {
-      "condition_1": {
-        "Q20": "4"
-      },
-      "condition_2": {},
-      "condition_3": {}
+      "condition_3": {
+        "gpt-3.5-turbo": {
+          "raw_response": "5"
+        },
+        "claude-3-opus-20240229": {
+          "raw_response": "3"
+        },
+        "llama3": {
+          "raw_response": "2"
+        }
+      }
     }
   }
 }
